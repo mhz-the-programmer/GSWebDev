@@ -260,3 +260,9 @@ section {
     background: var(--primary);
     transform: scale(1.2);
 }
+
+.tecnologia {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
