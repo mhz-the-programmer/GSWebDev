@@ -69,7 +69,6 @@ a:hover {
 }
 
 
-
 .btn-secondary:hover {
     background: #2d9247;
 }
@@ -79,4 +78,56 @@ header {
     width: 100%;
     top: 0;
     transition: background-color 0.5s ease;
+}
+
+.theme-switchers {
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+
+    .theme-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+.theme-btn.blue {
+    background: linear-gradient(135deg, #1a73e8, #34a853);
+}
+
+.theme-btn.green {
+    background: linear-gradient(135deg, #34a853, #fbbc05);
+}
+
+.theme-btn.purple {
+    background: linear-gradient(135deg, #6a0dad, #1a73e8);
+}
+
+.theme-btn.reset {
+    background: linear-gradient(135deg, #fff, black);
+}
+
+section {
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    & h1 {
+        font-size: 3rem
+    }
+
+    & p {
+        font-size: 1.3rem;
+        max-width: 800px;
+        margin: 0 auto 2rem;
+    }
 }
