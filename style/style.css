@@ -287,3 +287,17 @@ section {
     margin-bottom: 15px;
 
 }
+
+.beneficios-solucao {
+    display: flex;
+    gap: 25px;
+
+    & h4 {
+        font-size: 17px;
+    }
+
+    & p {
+        font-size: 15px;
+    }
+
+}
