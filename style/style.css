@@ -277,3 +277,13 @@ section {
         font-size: 17px;
     }
 }
+
+.grupos-afetados {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 15px;
+
+}
