@@ -397,3 +397,10 @@ section {
     margin-top: 5px;
     display: none;
 }
+
+footer {
+    background-color: var(--dark);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
