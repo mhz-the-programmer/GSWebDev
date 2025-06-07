@@ -404,3 +404,25 @@ footer {
     padding: 3rem 0;
     text-align: center;
 }
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.hamburger span {
+    height: 4px;
+    background: var(--primary);
+    border-radius: 5px;
+    width: 100%;
+    transition: var(--transition);
+}
